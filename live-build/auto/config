@@ -922,7 +922,7 @@ case $PROJECT in
 			add_task install cloud-image
 			add_package install sudo lxd-installer
 		else
-			add_task install minimal standard
+			add_task install minimal
 			add_package install ubuntu-minimal
 		        case $ARCH in
 				armhf|arm64|ppc64el|powerpc)
